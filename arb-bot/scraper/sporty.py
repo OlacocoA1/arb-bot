@@ -2,7 +2,7 @@ import requests
 
 def get_sporty():
     try:
-        url = "https://example-sporty-endpoint.com"
+        url = "https://www.sportybet.com/ng/m/"
 
         r = requests.get(url, timeout=10)
         data = r.json()
