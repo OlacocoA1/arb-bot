@@ -2,7 +2,7 @@ import requests
 
 def get_xbet():
     try:
-        url = "https://example-xbet-endpoint.com"
+        url = "https://1xbet.ng/en"
 
         r = requests.get(url, timeout=10)
         data = r.json()
